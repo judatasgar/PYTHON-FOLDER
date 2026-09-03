@@ -1,0 +1,12 @@
+contraseña=str(input('Ingrese su contraseña: '))
+while len(contraseña) < 8:
+    print('La contraseña debe tener al menos 8 caracteres')
+    contraseña=str(input('Ingrese su contraseña: '))
+    if len(contraseña) >= 8:
+        print('Contraseña aceptada')
+
+contraseña_verificada=contraseña==contraseña.lower()
+if contraseña_verificada == True:
+    print('La contraseña no puede estar toda en minúsculas')
+else:
+    print('Contraseña válida')

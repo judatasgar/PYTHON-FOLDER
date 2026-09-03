@@ -1,0 +1,50 @@
+Vendedor: Laura Méndez | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $1052268
+Vendedor: Natalia Puentes | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $778968
+Vendedor: Camila Rojas | Tienda: Bogotá | Producto: Chaqueta impermeable | Monto: $742935
+Vendedor: Carlos Ríos | Tienda: Cali | Producto: Botas de cuero | Monto: $838476
+Vendedor: Andrea Salazar | Tienda: Cali | Producto: Reloj deportivo | Monto: $792342
+Vendedor: Camila Rojas | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $785961
+Vendedor: Camila Rojas | Tienda: Cali | Producto: Reloj deportivo | Monto: $1030628
+Vendedor: Natalia Puentes | Tienda: Cali | Producto: Reloj deportivo | Monto: $1031180
+Vendedor: Laura Méndez | Tienda: Bogotá | Producto: Botas de cuero | Monto: $1064790
+Vendedor: Andrea Salazar | Tienda: Medellín | Producto: Reloj deportivo | Monto: $1058280
+Vendedor: Laura Méndez | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $1052268
+Vendedor: Natalia Puentes | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $778968
+Vendedor: Camila Rojas | Tienda: Bogotá | Producto: Chaqueta impermeable | Monto: $742935
+Vendedor: Carlos Ríos | Tienda: Cali | Producto: Botas de cuero | Monto: $838476
+Vendedor: Andrea Salazar | Tienda: Cali | Producto: Reloj deportivo | Monto: $792342
+Vendedor: Camila Rojas | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $785961
+Vendedor: Camila Rojas | Tienda: Cali | Producto: Reloj deportivo | Monto: $1030628
+Vendedor: Natalia Puentes | Tienda: Cali | Producto: Reloj deportivo | Monto: $1031180
+Vendedor: Laura Méndez | Tienda: Bogotá | Producto: Botas de cuero | Monto: $1064790
+Vendedor: Andrea Salazar | Tienda: Medellín | Producto: Reloj deportivo | Monto: $1058280
+Vendedor: Laura Méndez | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $1052268
+Vendedor: Natalia Puentes | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $778968
+Vendedor: Camila Rojas | Tienda: Bogotá | Producto: Chaqueta impermeable | Monto: $742935
+Vendedor: Carlos Ríos | Tienda: Cali | Producto: Botas de cuero | Monto: $838476
+Vendedor: Andrea Salazar | Tienda: Cali | Producto: Reloj deportivo | Monto: $792342
+Vendedor: Camila Rojas | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $785961
+Vendedor: Camila Rojas | Tienda: Cali | Producto: Reloj deportivo | Monto: $1030628
+Vendedor: Natalia Puentes | Tienda: Cali | Producto: Reloj deportivo | Monto: $1031180
+Vendedor: Laura Méndez | Tienda: Bogotá | Producto: Botas de cuero | Monto: $1064790
+Vendedor: Andrea Salazar | Tienda: Medellín | Producto: Reloj deportivo | Monto: $1058280
+Vendedor: Laura Méndez | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $1052268
+Vendedor: Natalia Puentes | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $778968
+Vendedor: Camila Rojas | Tienda: Bogotá | Producto: Chaqueta impermeable | Monto: $742935
+Vendedor: Carlos Ríos | Tienda: Cali | Producto: Botas de cuero | Monto: $838476
+Vendedor: Andrea Salazar | Tienda: Cali | Producto: Reloj deportivo | Monto: $792342
+Vendedor: Camila Rojas | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $785961
+Vendedor: Camila Rojas | Tienda: Cali | Producto: Reloj deportivo | Monto: $1030628
+Vendedor: Natalia Puentes | Tienda: Cali | Producto: Reloj deportivo | Monto: $1031180
+Vendedor: Laura Méndez | Tienda: Bogotá | Producto: Botas de cuero | Monto: $1064790
+Vendedor: Andrea Salazar | Tienda: Medellín | Producto: Reloj deportivo | Monto: $1058280
+Vendedor: Laura Méndez | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $1052268
+Vendedor: Natalia Puentes | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $778968
+Vendedor: Camila Rojas | Tienda: Bogotá | Producto: Chaqueta impermeable | Monto: $742935
+Vendedor: Carlos Ríos | Tienda: Cali | Producto: Botas de cuero | Monto: $838476
+Vendedor: Andrea Salazar | Tienda: Cali | Producto: Reloj deportivo | Monto: $792342
+Vendedor: Camila Rojas | Tienda: Bucaramanga | Producto: Reloj deportivo | Monto: $785961
+Vendedor: Camila Rojas | Tienda: Cali | Producto: Reloj deportivo | Monto: $1030628
+Vendedor: Natalia Puentes | Tienda: Cali | Producto: Reloj deportivo | Monto: $1031180
+Vendedor: Laura Méndez | Tienda: Bogotá | Producto: Botas de cuero | Monto: $1064790
+Vendedor: Andrea Salazar | Tienda: Medellín | Producto: Reloj deportivo | Monto: $1058280

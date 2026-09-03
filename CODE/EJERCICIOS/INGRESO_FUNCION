@@ -1,0 +1,13 @@
+print('Bienvenido a CINE COLOMBIA!!!')
+edad_cliente = int(input('Por favor, confirme su edad: '))
+if edad_cliente < 5:
+    print('El menor de edad puede ingresar gratis a la sala de cine. ')
+    acompañado = str(input('El menor de edad esta acompañado? (SI/NO): '))
+    if acompañado.lower() == 'no':
+        print('El menor de edad no puede ingresar a la sala de cine sin un adulto responsable')
+    else:
+        print('El menor de edad puede ingresar a la sala de cine acompañado de un adulto responsable')
+elif edad_cliente > 60:
+    print(f'Como adulto mayor de ({edad_cliente}) años, usted puede obtener un descuento en su entrada')
+else:
+    print('El precio de entrada es de 20.000 pesos colombianos.')

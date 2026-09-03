@@ -1,0 +1,42 @@
+#suponer que tenemos un programa que maneja un carrito de compras
+carrito={'diademas':31,'Mouses': 50, 'Gemini Pro':10}
+
+#crear algoritmo que no permita crear un programa donde podamos agregar elementos al carro, modificarlos, actualizarlos, eliminarlos
+#Como una forma de menu, en donde al seleccionar la opcion, haga el procedimiento
+
+while True:
+    opcion = input("Que deseas hacer:\n1. Agregar\n2. Modificar\n3. Eliminar\n4. Salir\n")
+    opcion = opcion.lower().strip()
+
+    if opcion=='salir' or opcion=='4': 
+        print("Compra finalizada. Gracias por irte a la chingada")
+        print('Carrito de compras:', carrito)
+        break
+    elif opcion=='agregar' or opcion=='1':
+        producto=input('Ingrese el nombre del producto: ')  
+        cantidad=int(input('Ingrese la cantidad del producto: '))
+        if producto in carrito:
+            print('El producto ya existe')
+        else:
+            carrito[producto]=cantidad
+            print("Producto agregado al carrito")
+    elif opcion=='modificar' or opcion=='2':
+        producto=input('Ingrese el nombre del producto que desea modificar: ')
+        if producto in carrito:
+            nueva_cantidad=int(input('Ingrese la nueva cantidad: '))
+            carrito[producto]=nueva_cantidad
+            print("Producto modificado")
+        else:
+            print("El producto no existe en el carrito")
+    elif opcion=='eliminar' or opcion=='3':
+        producto=input('Ingrese el nombre del producto que desea eliminar: ')
+        if producto in carrito:
+            del carrito[producto]
+            print("Producto eliminado del carrito")
+        else:
+            print("El producto no existe en el carrito")
+    else:
+        print("Opcion no valida, por favor seleccione una opcion correcta") 
+
+    print('Carrito de compras:', carrito)
+    print("=======================================================")    

@@ -1,0 +1,6 @@
+temperatura_registro=float(input('Ingrese la temperatura en grados centigrados: '))
+class_temperatura = 'Frió' if temperatura_registro<10 else 'Templado' if temperatura_registro>=10 and temperatura_registro<=25 else 'Caluroso'
+print(f'La temperatura registrada es de {temperatura_registro}°C y se clasifica como: {class_temperatura}')
+decision_abrigo = 'llevar abrigo' if class_temperatura=='Frió' else 'no llevar abrigo' if class_temperatura=='Templado' else 'llevar ropa ligera'
+recomendacion = f'La temperatura es {class_temperatura}, se recomienda {decision_abrigo}'
+print(recomendacion)

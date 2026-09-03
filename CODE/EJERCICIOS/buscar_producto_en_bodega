@@ -1,0 +1,10 @@
+productos_anaquel=["arroz", "aceite", "azúcar", "sal", "harina"]
+producto_buscado=str(input('Ingrese el nombre del producto que desea buscar: '))
+i=0
+while i<len(productos_anaquel):
+    if productos_anaquel[i].lower()==producto_buscado.lower():
+        print(f'El producto {producto_buscado} se encuentra en el anaquel. ')
+        break
+    i+=1
+else:
+    print(f'El producto {producto_buscado} no se encuentra en el anaquel. ')

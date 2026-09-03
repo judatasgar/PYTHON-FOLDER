@@ -1,0 +1,6 @@
+tallas_inventario=["S", "M", "M", "L", "M", "S"]
+count_tallas_M = 0
+for talla in tallas_inventario:
+    if talla == 'M':
+        count_tallas_M += 1
+print(f"La cantidad de tallas M en el inventario es: {count_tallas_M}")

@@ -1,0 +1,7 @@
+personas_mesa=int(input('Cantidad de comensales presentes: '))
+total_cuenta_neto=float(input('Total de la cuenta (sin propina): '))
+propina_total_cuenta=total_cuenta_neto*0.1
+total_cuenta_con_propina=total_cuenta_neto+propina_total_cuenta
+pago_por_calavera=total_cuenta_con_propina/personas_mesa
+
+print(f'Total de la cuenta para cada comensal (con propina): ${pago_por_calavera:,.0f}')
