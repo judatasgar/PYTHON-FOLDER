@@ -14,7 +14,7 @@ def ver_horario_semanal():
         for evento in eventos:
             if evento['dia'] == dia and evento['hora_inicio'] <= hora < evento['hora_fin']:
                 return evento['materia']
-        return 'Libre'
+        return '---'
 
     ancho_hora = 10
     ancho_dia = 15

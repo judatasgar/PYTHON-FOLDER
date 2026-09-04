@@ -4,7 +4,10 @@ from archivo import cargar_horario, guardar_horario
 
 RUTA_REPORTE = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
+    '..',
+    '..',
     'PROCCESED',
+    'PROYECTO_HORARIO',
     'reporte_horario.json'
 )
 
@@ -50,7 +53,8 @@ def generar_reporte():
         if contador % 2 == 0 and contador < len(reporte):
             input('Presione ENTER para continuar...')
 
-    with open('reporte_horario.json', 'w', encoding='utf-8') as archivo:
+    os.makedirs(os.path.dirname(RUTA_REPORTE), exist_ok=True)
+    with open(RUTA_REPORTE, 'w', encoding='utf-8') as archivo:
         json.dump(reporte, archivo, ensure_ascii=False, indent=4)
 
     print('Reporte guardado en reporte_horario.json')
