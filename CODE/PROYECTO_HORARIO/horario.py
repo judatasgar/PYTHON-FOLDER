@@ -1,6 +1,5 @@
 import unicodedata
-
-from CODE.PROYECTO_HORARIO.archivo import cargar_horario, guardar_horario
+from archivo import cargar_horario, guardar_horario
 
 def quitar_tildes(texto): 
     texto_normalizado = unicodedata.normalize('NFD', texto)
@@ -57,12 +56,14 @@ def pedir_hora_validada(mensaje):
          hora = validar_hora(hora)
      return hora
 
-def evitar_conflictos(eventos, dia_ingresado, hora_inicio_ingresado, hora_fin_ingresado):
-     for evento in eventos:
-          if evento['dia'] == dia_ingresado:
-               if (hora_inicio_ingresado < evento['hora_fin'] and hora_fin_ingresado > evento['hora_inicio']):
-                    return False
-     return True
+def evitar_conflictos(eventos, dia_ingresado, hora_inicio_ingresado, hora_fin_ingresado, ignorar=None):
+    for evento in eventos:
+        if evento == ignorar:
+            continue
+        if evento['dia'] == dia_ingresado:
+            if (hora_inicio_ingresado < evento['hora_fin'] and hora_fin_ingresado > evento['hora_inicio']):
+                return False
+    return True
 
 
 def registrar_evento():

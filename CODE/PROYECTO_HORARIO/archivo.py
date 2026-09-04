@@ -1,4 +1,11 @@
 import json
+import os  
+
+RUTA_ARCHIVO = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    'PROCCESED',
+    'horario_json.json'
+)
 
 def cargar_horario():
     try:
@@ -9,5 +16,6 @@ def cargar_horario():
     return horario
 
 def guardar_horario(eventos):
+    os.makedirs(os.path.dirname(RUTA_ARCHIVO), exist_ok=True)
     with open('horario_json.json', 'w', encoding='utf-8') as archivo:
         json.dump(eventos, archivo, ensure_ascii=False, indent=4)
