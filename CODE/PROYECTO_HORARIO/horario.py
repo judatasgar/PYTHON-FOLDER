@@ -51,7 +51,7 @@ def pedir_hora_validada(mensaje):
      hora = input(mensaje).strip()
      hora = validar_hora(hora)
      while not hora:
-         print('Hora invalida. Por favor, ingrese una hora válida (de 06:00 a 20:00).')
+         print('Hora invalida. Por favor, ingrese una hora válida (de 06:00 a 20:00). ')
          hora = input(mensaje).strip()
          hora = validar_hora(hora)
      return hora
@@ -91,7 +91,7 @@ def registrar_evento():
     if lugar_evento!= '':
         lugar_evento = normalizar_texto(lugar_evento, ubicaciones_existentes)
     else:
-        lugar_evento = 'Lugar no especificado'
+        lugar_evento = 'No especificado'
     
     while not evitar_conflictos (eventos, dia_semana, hora_inicio, hora_fin):
         print('El horario ingresado causa conflictos con eventos previamente registrados. Verifique e ingrese horario deseado')

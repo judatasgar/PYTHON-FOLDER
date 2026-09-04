@@ -10,8 +10,8 @@ def buscador_evento(eventos, materia_ingresado, dia_ingresado):
     return materias_simultaneas
 
 def seleccionar_evento(eventos):
-        dia_ingresado = input('Ingrese el nombre del dia en el que quiere realizar la modificacion')
-        materia_ingresado = input('Ingrese el nombre de la materia que desea modificar')
+        dia_ingresado = input('Ingrese el nombre del dia en el que quiere realizar la modificacion: ')
+        materia_ingresado = input('Ingrese el nombre de la materia que desea modificar: ')
         eventos_encontrados = buscador_evento(eventos, materia_ingresado, dia_ingresado)
         if len(eventos_encontrados) == 0:
              print('No se han hallado eventos bajos los parametros que establecio ')
