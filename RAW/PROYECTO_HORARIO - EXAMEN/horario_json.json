@@ -1,0 +1,30 @@
+[
+    {
+        "materia": "Sociales",
+        "dia": "Lunes",
+        "hora_inicio": "06:00",
+        "hora_fin": "08:00",
+        "ubicacion": "Sputnik"
+    },
+    {
+        "materia": "Matematicas",
+        "dia": "Lunes",
+        "hora_inicio": "10:00",
+        "hora_fin": "12:00",
+        "ubicacion": "Lugar no especificado"
+    },
+    {
+        "materia": "Python",
+        "dia": "Viernes",
+        "hora_inicio": "06:00",
+        "hora_fin": "09:00",
+        "ubicacion": "Sputnik"
+    },
+    {
+        "materia": "Ser",
+        "dia": "Miércoles",
+        "hora_inicio": "08:00",
+        "hora_fin": "09:00",
+        "ubicacion": "Sputnik"
+    }
+]
