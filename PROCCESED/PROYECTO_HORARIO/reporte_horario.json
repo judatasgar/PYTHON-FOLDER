@@ -10,9 +10,31 @@
             },
             {
                 "materia": "Matematicas",
-                "hora_inicio": "08:00",
-                "hora_fin": "10:00",
+                "hora_inicio": "10:00",
+                "hora_fin": "12:00",
                 "ubicacion": "Lugar no especificado"
+            }
+        ]
+    },
+    {
+        "dia": "Miércoles",
+        "eventos": [
+            {
+                "materia": "Ser",
+                "hora_inicio": "08:00",
+                "hora_fin": "09:00",
+                "ubicacion": "Sputnik"
+            }
+        ]
+    },
+    {
+        "dia": "Viernes",
+        "eventos": [
+            {
+                "materia": "Python",
+                "hora_inicio": "06:00",
+                "hora_fin": "09:00",
+                "ubicacion": "Sputnik"
             }
         ]
     }
