@@ -6,7 +6,7 @@ RUTA_REPORTE = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
     '..',
     '..',
-    'PROCCESED',
+    'PROCESSED',
     'PROYECTO_HORARIO - EXAMEN',
     'reporte_calendario.json'
 )
