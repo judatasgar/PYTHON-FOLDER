@@ -1,0 +1,69 @@
+[
+    {
+        "dia": "Lunes",
+        "eventos": [
+            {
+                "materia": "Python",
+                "hora_inicio": "06:00",
+                "hora_fin": "08:00",
+                "ubicacion": "No especificado"
+            },
+            {
+                "materia": "Ingles Iv",
+                "hora_inicio": "10:00",
+                "hora_fin": "12:00",
+                "ubicacion": "Auditorio"
+            },
+            {
+                "materia": "Ser",
+                "hora_inicio": "12:00",
+                "hora_fin": "14:00",
+                "ubicacion": "Sala Azul"
+            }
+        ]
+    },
+    {
+        "dia": "Martes",
+        "eventos": [
+            {
+                "materia": "Artes",
+                "hora_inicio": "08:00",
+                "hora_fin": "10:00",
+                "ubicacion": "Sputnik"
+            }
+        ]
+    },
+    {
+        "dia": "Miércoles",
+        "eventos": [
+            {
+                "materia": "Ingles Iv",
+                "hora_inicio": "10:00",
+                "hora_fin": "12:00",
+                "ubicacion": "Apollo"
+            }
+        ]
+    },
+    {
+        "dia": "Jueves",
+        "eventos": [
+            {
+                "materia": "Ser",
+                "hora_inicio": "12:00",
+                "hora_fin": "14:00",
+                "ubicacion": "Sala Azul"
+            }
+        ]
+    },
+    {
+        "dia": "Viernes",
+        "eventos": [
+            {
+                "materia": [],
+                "hora_inicio": [],
+                "hora_fin": [],
+                "ubicacion": []
+            }
+        ]
+    }
+]

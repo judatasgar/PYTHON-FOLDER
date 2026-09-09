@@ -7,12 +7,12 @@ RUTA_REPORTE = os.path.join(
     '..',
     '..',
     'PROCCESED',
-    'PROYECTO_HORARIO',
-    'reporte_horario.json'
+    'PROYECTO_HORARIO - EXAMEN',
+    'reporte_calendario.json'
 )
 
 
-def generar_reporte():
+def exportar_calendario():
     eventos = cargar_horario()
     if not eventos:
         print('No hay eventos registrados.')
@@ -36,6 +36,18 @@ def generar_reporte():
                     } for e in eventos_del_dia
                 ]
             })
+        elif not eventos_del_dia:
+            reporte.append({
+                'dia': dia,
+                'eventos': [
+                    {
+                        'materia': [],
+                        'hora_inicio': [],
+                        'hora_fin': [],
+                        'ubicacion': []
+                    }
+                                ]
+            })
 
     separador = '=' * 42
     print(separador)
@@ -57,4 +69,4 @@ def generar_reporte():
     with open(RUTA_REPORTE, 'w', encoding='utf-8') as archivo:
         json.dump(reporte, archivo, ensure_ascii=False, indent=4)
 
-    print('Reporte guardado en reporte_horario.json')
+    print('Reporte guardado en reporte_calendario.json')

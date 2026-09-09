@@ -6,7 +6,7 @@ RUTA_ARCHIVO = os.path.join(
     '..',
     '..',
     'RAW',
-    'PROYECTO_HORARIO',
+    'PROYECTO_HORARIO - EXAMEN',
     'horario_json.json'
 )
 

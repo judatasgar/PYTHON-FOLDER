@@ -9,10 +9,27 @@
                 "ubicacion": "Sputnik"
             },
             {
+                "materia": "Python",
+                "hora_inicio": "08:00",
+                "hora_fin": "10:00",
+                "ubicacion": "Apollo"
+            },
+            {
                 "materia": "Matematicas",
                 "hora_inicio": "10:00",
                 "hora_fin": "12:00",
                 "ubicacion": "Lugar no especificado"
+            }
+        ]
+    },
+    {
+        "dia": "Martes",
+        "eventos": [
+            {
+                "materia": "Artes",
+                "hora_inicio": "14:00",
+                "hora_fin": "16:00",
+                "ubicacion": "Apollo"
             }
         ]
     },
@@ -24,6 +41,23 @@
                 "hora_inicio": "08:00",
                 "hora_fin": "09:00",
                 "ubicacion": "Sputnik"
+            },
+            {
+                "materia": "Ingles Iv",
+                "hora_inicio": "16:00",
+                "hora_fin": "18:00",
+                "ubicacion": "Apollo"
+            }
+        ]
+    },
+    {
+        "dia": "Jueves",
+        "eventos": [
+            {
+                "materia": "Fisica",
+                "hora_inicio": "12:00",
+                "hora_fin": "14:00",
+                "ubicacion": "No especificado"
             }
         ]
     },
